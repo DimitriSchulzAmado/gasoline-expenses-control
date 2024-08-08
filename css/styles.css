@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #454545;  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-gas {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #333;
+}
+
+.form-gas input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.form-gas label {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form-gas button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5b46d2;
+    cursor: pointer;
+}
+
+.form-gas button:hover {
+    background-color: #4a3aa8;
+}
